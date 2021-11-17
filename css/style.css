@@ -25,12 +25,6 @@
     color: white;
 }
 
-/* header */
-.topbar{
-    height: 100px;
-    background-color: blue;
-}
-
 .col{
     float: left;
     line-height: 100px;
@@ -40,12 +34,31 @@
     width: 20%;
 }
 
+.w-40{
+    width: 40%;
+}
+
 .w-60{
     width: 60%;
 }
 
+.btn{
+    text-decoration: none; 
+}
+
+.m-100{
+    margin-top: 100px;
+}
+
+/* header */
+.topbar{
+    height: 100px;
+    background-color: blue;
+}
+
 #logo{
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .menu{
@@ -67,8 +80,8 @@
     font-size: 20px;   
 }
 
-.btn{
-    text-decoration: none; 
+.menu a:hover{
+    text-decoration: underline; 
 }
 
 .btn-small{
@@ -126,3 +139,25 @@
 .btn-black:hover{
     color: purple;   
 }
+
+/* main */
+.col-image{
+    background-size: cover;
+}
+
+.col-text{
+    padding-left: 50px;
+}
+
+.col-text h1{
+    margin-top: 30px;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.col-text p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
